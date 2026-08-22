@@ -1,0 +1,14 @@
+[     603ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[     619ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=7adbc2ae:2516
+[    1573ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[    4566ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[   10857ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://lz4.overpass-api.de/api/interpreter:0
+[   10857ms] [WARNING] Server https://lz4.overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166397933:68
+[   18000ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://z.overpass-api.de/api/interpreter:0
+[   18000ms] [WARNING] Server https://z.overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166397933:68
+[   23847ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://overpass-api.de/api/interpreter:0
+[   23847ms] [WARNING] Server https://overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166397933:68
+[   23847ms] [ERROR] 검색 오류: Error: 모든 Overpass 서버가 응답하지 않습니다.
+    at fetchMapData (http://localhost:3000/src/lib/overpass.ts?t=1772166397933:87:22)
+    at async http://localhost:3000/src/hooks/useSearch.ts?t=1772166397933:32:30 @ http://localhost:3000/src/hooks/useSearch.ts?t=1772166397933:42
+[   49637ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745

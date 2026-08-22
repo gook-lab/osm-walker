@@ -1,0 +1,128 @@
+[     512ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[     555ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=2f20f699:2516
+[    1496ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[    6476ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[   11615ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://lz4.overpass-api.de/api/interpreter:0
+[   11615ms] [WARNING] Server https://lz4.overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166902954:60
+[   17555ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://z.overpass-api.de/api/interpreter:0
+[   17555ms] [WARNING] Server https://z.overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166902954:60
+[   24665ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://overpass-api.de/api/interpreter:0
+[   24665ms] [WARNING] Server https://overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166902954:60
+[   24665ms] [ERROR] 검색 오류: Error: 모든 Overpass 서버가 응답하지 않습니다.
+    at fetchMapData (http://localhost:3000/src/lib/overpass.ts?t=1772166902954:79:22)
+    at async http://localhost:3000/src/hooks/useSearch.ts?t=1772166985091:32:30 @ http://localhost:3000/src/hooks/useSearch.ts?t=1772166985091:42
+[   55572ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[   60768ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://lz4.overpass-api.de/api/interpreter:0
+[   60768ms] [WARNING] Server https://lz4.overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166902954:60
+[   75770ms] [WARNING] Server https://z.overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166902954:70
+[   81774ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://overpass-api.de/api/interpreter:0
+[   81774ms] [WARNING] Server https://overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166902954:60
+[   81775ms] [ERROR] 검색 오류: Error: 서버 응답 시간 초과
+    at fetchMapData (http://localhost:3000/src/lib/overpass.ts?t=1772166902954:72:21)
+    at async http://localhost:3000/src/hooks/useSearch.ts?t=1772166985091:32:30 @ http://localhost:3000/src/hooks/useSearch.ts?t=1772166985091:42
+[  637166ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  643182ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  664254ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  670270ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  738362ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  743391ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  780458ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  786476ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  825554ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  835558ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1049997ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1056027ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1067011ms] [ERROR] React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ SearchBar 1. useState                   useState
+2. useCallback                useCallback
+3. useCallback                useCallback
+4. useSyncExternalStore       useSyncExternalStore
+5. useDebugValue              useDebugValue
+6. useCallback                useCallback
+7. useCallback                useCallback
+8. useSyncExternalStore       useSyncExternalStore
+9. useDebugValue              useDebugValue
+10. useCallback               useCallback
+11. useCallback               useCallback
+12. useSyncExternalStore      useSyncExternalStore
+13. useDebugValue             useDebugValue
+14. useCallback               useCallback
+15. useCallback               useCallback
+16. useSyncExternalStore      useSyncExternalStore
+17. useDebugValue             useDebugValue
+18. useCallback               useCallback
+19. useCallback               useCallback
+20. useSyncExternalStore      useSyncExternalStore
+21. useDebugValue             useDebugValue
+22. useCallback               useCallback
+23. useCallback               useCallback
+24. useSyncExternalStore      useSyncExternalStore
+25. useDebugValue             useDebugValue
+26. useCallback               useCallback
+27. useCallback               useCallback
+28. useSyncExternalStore      useSyncExternalStore
+29. useDebugValue             useDebugValue
+30. useCallback               useCallback
+31. useCallback               useCallback
+32. useSyncExternalStore      useSyncExternalStore
+33. useDebugValue             useDebugValue
+34. useCallback               useCallback
+35. useCallback               useCallback
+36. useCallback               useSyncExternalStore
+ @ http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:5325
+[ 1067013ms] Error: Rendered more hooks than during the previous render.
+    at updateWorkInProgressHook (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:5524:19)
+    at updateEffectImpl (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:6146:20)
+    at updateSyncExternalStore (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:5786:9)
+    at Object.useSyncExternalStore (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:18750:18)
+    at exports.useSyncExternalStore (http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=2f20f699:962:36)
+    at useStore (http://localhost:3000/node_modules/.vite/deps/chunk-ODUEBVNO.js?v=2f20f699:15:38)
+    at useBoundStore (http://localhost:3000/node_modules/.vite/deps/chunk-ODUEBVNO.js?v=2f20f699:25:39)
+    at useSearch (http://localhost:3000/src/hooks/useSearch.ts?t=1772168420943:14:20)
+    at SearchBar (http://localhost:3000/src/components/ui/SearchBar.tsx?t=1772168420943:26:22)
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:18241:20)
+[ 1067013ms] [WARNING] %s
+
+%s
+ An error occurred in the <SearchBar> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:6697
+[ 1076311ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1077263ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1212266ms] [ERROR] The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [, , [object Object], 150, 0.5] [, , , [object Object], 150, 0.5] @ http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:5359
+[ 1336754ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1336801ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=2f20f699:2516
+[ 1337737ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1414285ms] ReferenceError: useCenter is not defined
+    at Minimap (http://localhost:3000/src/components/ui/Minimap.tsx?t=1772168768213:30:18)
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:18241:20)
+    at renderWithHooks (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:5386:24)
+    at updateFunctionComponent (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:7207:21)
+    at beginWork (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:8257:20)
+    at runWithFiberInDEV (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:729:72)
+    at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:12293:98)
+    at workLoopSync (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:12156:43)
+    at renderRootSync (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:12140:13)
+    at performWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:11559:37)
+[ 1414284ms] [WARNING] %s
+
+%s
+ An error occurred in the <Minimap> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=2f20f699:6697
+[ 1417010ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1417962ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1477205ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1477224ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=2f20f699:2516
+[ 1478167ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1514258ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1514274ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=2f20f699:2516
+[ 1515223ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1551337ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[ 1551360ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=2f20f699:2516
+[ 1552461ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745

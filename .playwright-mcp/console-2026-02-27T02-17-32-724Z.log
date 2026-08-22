@@ -1,0 +1,72 @@
+[     794ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[    1073ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=4544bc0a:2516
+[    1211ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[   22555ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[   22618ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=4544bc0a:2516
+[   23502ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[   33572ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[   33621ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=4544bc0a:2516
+[   34522ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[   42615ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[   42669ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=4544bc0a:2516
+[   43564ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[   70678ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[   70726ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=4544bc0a:2516
+[   71627ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=4544bc0a:745
+[  260572ms] [ERROR] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=de350140:391
+[  260575ms] [ERROR] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=de350140:391
+[  260578ms] TypeError: Cannot read properties of null (reading 'useCallback')
+    at exports.useCallback (http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=de350140:904:35)
+    at useStore (http://localhost:3000/node_modules/.vite/deps/chunk-ODUEBVNO.js?v=de350140:17:26)
+    at useBoundStore (http://localhost:3000/node_modules/.vite/deps/chunk-ODUEBVNO.js?v=de350140:25:39)
+    at useBuildings (http://localhost:3000/src/stores/index.ts:9:35)
+    at Buildings (http://localhost:3000/src/components/3d/Buildings.tsx:22:21)
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:7942:20)
+    at It (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:3909:18)
+    at ks (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:4956:376)
+    at tt (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:5283:20)
+    at B (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:2740:63)
+[  260580ms] [ERROR] %o
+
+%s
+
+%s
+ TypeError: Cannot read properties of null (reading 'useCallback')
+    at exports.useCallback (http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=de350140:904:35)
+    at useStore (http://localhost:3000/node_modules/.vite/deps/chunk-ODUEBVNO.js?v=de350140:17:26)
+    at useBoundStore (http://localhost:3000/node_modules/.vite/deps/chunk-ODUEBVNO.js?v=de350140:25:39)
+    at useBuildings (http://localhost:3000/src/stores/index.ts:9:35)
+    at Buildings (http://localhost:3000/src/components/3d/Buildings.tsx:22:21)
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:7942:20)
+    at It (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:3909:18)
+    at ks (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:4956:376)
+    at tt (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:5283:20)
+    at B (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:2740:63) The above error occurred in the <CanvasImpl> component. React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=4544bc0a:6732
+[  260580ms] [ERROR] 3D Scene Error: TypeError: Cannot read properties of null (reading 'useCallback')
+    at exports.useCallback (http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=de350140:904:35)
+    at useStore (http://localhost:3000/node_modules/.vite/deps/chunk-ODUEBVNO.js?v=de350140:17:26)
+    at useBoundStore (http://localhost:3000/node_modules/.vite/deps/chunk-ODUEBVNO.js?v=de350140:25:39)
+    at useBuildings (http://localhost:3000/src/stores/index.ts:9:35)
+    at Buildings (http://localhost:3000/src/components/3d/Buildings.tsx:22:21)
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:7942:20)
+    at It (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:3909:18)
+    at ks (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:4956:376)
+    at tt (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:5283:20)
+    at B (http://localhost:3000/node_modules/.vite/deps/chunk-V2VYW37N.js?v=4544bc0a:2740:63) @ http://localhost:3000/src/components/ErrorBoundary.tsx:23
+[  260580ms] [ERROR] Error Info: {componentStack: 
+    at CanvasImpl (http://localhost:3000/node_mod…    at div (<anonymous>)
+    at App (<anonymous>)} @ http://localhost:3000/src/components/ErrorBoundary.tsx:24
+[  261938ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=de350140:745
+[  261982ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=de350140:2516
+[  262902ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=de350140:745
+[  300042ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[  300085ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=7adbc2ae:2516
+[  301001ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745

@@ -1,0 +1,2 @@
+[     763ms] [WARNING] 🚫 로컬 개발 환경 - Glitchtip 비활성화 @ http://localhost:5173/src/utils/sentry/init.ts:9
+[     795ms] [WARNING] Cornerstone v4 initialized (mode: tiled, gpuTier: 2) @ http://localhost:5173/src/main.tsx?t=1772173620993:65

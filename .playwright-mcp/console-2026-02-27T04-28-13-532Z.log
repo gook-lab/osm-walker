@@ -1,0 +1,64 @@
+[     905ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[     922ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=7adbc2ae:2516
+[    1864ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[    4870ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[   11199ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Timeout) @ https://lz4.overpass-api.de/api/interpreter:0
+[   11200ms] [WARNING] Server https://lz4.overpass-api.de/api/interpreter timed out, trying next... @ http://localhost:3000/src/lib/overpass.ts?t=1772166461759:53
+[   12948ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[  218453ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[  218553ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=7adbc2ae:2516
+[  219425ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=7adbc2ae:745
+[  236035ms] [WARNING] THREE.WARNING: Multiple instances of Three.js being imported. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  236210ms] [ERROR] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=2f20f699:391
+[  236225ms] [ERROR] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem. @ http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=2f20f699:391
+[  236227ms] TypeError: Cannot read properties of null (reading 'useContext')
+    at exports.useContext (http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=2f20f699:911:27)
+    at useStore (http://localhost:3000/node_modules/.vite/deps/chunk-DWX2HKJA.js?v=2f20f699:1259:24)
+    at useThree (http://localhost:3000/node_modules/.vite/deps/chunk-DWX2HKJA.js?v=2f20f699:1264:10)
+    at http://localhost:3000/node_modules/.vite/deps/@react-three_postprocessing.js?v=b4705e88:17226:53
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:7919:20)
+    at It (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:3886:18)
+    at hf (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:4813:28)
+    at tt (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:5304:20)
+    at B (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:2717:102)
+    at Ph (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:7133:44)
+[  236233ms] [ERROR] %o
+
+%s
+
+%s
+ TypeError: Cannot read properties of null (reading 'useContext')
+    at exports.useContext (http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=2f20f699:911:27)
+    at useStore (http://localhost:3000/node_modules/.vite/deps/chunk-DWX2HKJA.js?v=2f20f699:1259:24)
+    at useThree (http://localhost:3000/node_modules/.vite/deps/chunk-DWX2HKJA.js?v=2f20f699:1264:10)
+    at http://localhost:3000/node_modules/.vite/deps/@react-three_postprocessing.js?v=b4705e88:17226:53
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:7919:20)
+    at It (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:3886:18)
+    at hf (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:4813:28)
+    at tt (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:5304:20)
+    at B (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:2717:102)
+    at Ph (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:7133:44) The above error occurred in the <CanvasImpl> component. React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ http://localhost:3000/node_modules/.vite/deps/chunk-RSZBRKH3.js?v=7adbc2ae:6732
+[  236234ms] [ERROR] 3D Scene Error: TypeError: Cannot read properties of null (reading 'useContext')
+    at exports.useContext (http://localhost:3000/node_modules/.vite/deps/chunk-6KCF6AHO.js?v=2f20f699:911:27)
+    at useStore (http://localhost:3000/node_modules/.vite/deps/chunk-DWX2HKJA.js?v=2f20f699:1259:24)
+    at useThree (http://localhost:3000/node_modules/.vite/deps/chunk-DWX2HKJA.js?v=2f20f699:1264:10)
+    at http://localhost:3000/node_modules/.vite/deps/@react-three_postprocessing.js?v=b4705e88:17226:53
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:7919:20)
+    at It (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:3886:18)
+    at hf (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:4813:28)
+    at tt (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:5304:20)
+    at B (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:2717:102)
+    at Ph (http://localhost:3000/node_modules/.vite/deps/chunk-47NAKN4Y.js?v=7adbc2ae:7133:44) @ http://localhost:3000/src/components/ErrorBoundary.tsx:23
+[  236234ms] [ERROR] Error Info: {componentStack: 
+    at CanvasImpl (http://localhost:3000/node_mod…localhost:3000/src/App.tsx?t=1772166691798:23:21)} @ http://localhost:3000/src/components/ErrorBoundary.tsx:24
+[  237491ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745
+[  237673ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3000/node_modules/.vite/deps/chunk-LLEILHP5.js?v=2f20f699:2516
+[  238468ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=2f20f699:745

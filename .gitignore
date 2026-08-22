@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.local
+*.tsbuildinfo
+.DS_Store
+.gstack/
+.claude/worktrees/
+
+# 대용량 아카이브 — 레포에 넣지 않는다
+*.zip
+
+# 환경변수
+.env
+.env.local
