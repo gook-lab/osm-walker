@@ -1,3 +1,0 @@
-[     203ms] [WARNING] THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3001/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=e7880d71:745
-[     240ms] [WARNING] using deprecated parameters for the initialization function; pass a single object instead @ http://localhost:3001/node_modules/.vite/deps/chunk-LLEILHP5.js?v=e7880d71:2516
-[    1162ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3001/node_modules/.vite/deps/chunk-JN4RKZY7.js?v=e7880d71:745
