@@ -93,7 +93,7 @@ Overpass/지오코딩 응답은 스키마가 느슨하고 자주 빈다. `lib/sc
 
 **Source-available — 오픈소스가 아닙니다.** 코드를 읽을 수 있게 공개했을 뿐,
 사용 권한을 준 것은 아닙니다. 다른 프로젝트에 가져다 쓰거나 재배포·상업적 이용을
-하려면 사전 서면 허락이 필요합니다. 전문은 [LICENSE](LICENSE) 참조.
+하려면 사전 서면 허락이 필요합니다. 전문은 [LICENSE](LICENSE), 한국어 안내는 [LICENSE.ko.md](LICENSE.ko.md) 참조.
 
 지도 데이터는 **OpenStreetMap contributors (ODbL)**, 3D 모델은 각 에셋의 라이선스를
 따른다 (`FREE_3D_ASSETS.md` 참조).
