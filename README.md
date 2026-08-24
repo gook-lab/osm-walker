@@ -1,14 +1,16 @@
 # 3D Map Explorer
 
+**한국어** | [English](README.en.md)
+
 > **About (EN)** — A browser-based 3D map explorer. It pulls real building
 > footprints, roads and POIs from OpenStreetMap around any searched location and
 > extrudes them into a cute low-poly world you walk through as a chibi character.
 > Built with React 19, React Three Fiber and Rapier physics.
 
-실제 지도 데이터로 만든 귀여운 로우폴리 3D 월드를 치비 캐릭터로 걸어다니며 탐험하는 웹 앱.
+실제 지도 데이터로 만든 귀여운 로우폴리 3D 월드를 치비 캐릭터로 걸어다니며 탐험하는 웹 앱입니다.
 
 검색한 좌표 주변 500m의 OpenStreetMap 데이터(건물 폴리곤·도로·POI)를 받아
-Three.js 씬으로 압출(extrude)하고, 물리 기반 캐릭터 컨트롤러로 그 위를 돌아다닌다.
+Three.js 씬으로 압출(extrude)해서, 물리 기반 캐릭터 컨트롤러로 그 위를 돌아다니는 것입니다.
 
 ## 기술 스택
 
@@ -63,8 +65,8 @@ scripts/             convert-models.js, convert-3ds.js (glTF 파이프라인)
 
 ### 1. 좌표계는 셋, 변환 지점은 하나
 
-지도 프로젝트에서 버그의 대부분은 좌표계 혼동에서 나온다. 그래서 세 좌표계를
-**타입으로 분리**하고, 변환은 `utils/coordinates.ts` 한 곳에서만 한다.
+지도 프로젝트에서 버그의 대부분은 좌표계 혼동에서 납니다. 그래서 세 좌표계를
+**타입으로 분리**하고, 변환은 `utils/coordinates.ts` 한 곳에서만 하도록 했습니다.
 
 | 좌표계 | 타입 | 설명 |
 |---|---|---|
@@ -74,14 +76,14 @@ scripts/             convert-models.js, convert-3ds.js (glTF 파이프라인)
 
 ### 2. 외부 데이터는 Zod로 막고 들어온다
 
-Overpass/지오코딩 응답은 스키마가 느슨하고 자주 빈다. `lib/schemas.ts`에서
-파싱 단계에 검증해, 씬 레이어에는 항상 정상 형태만 들어가게 한다.
+Overpass/지오코딩 응답은 스키마가 느슨하고 자주 빕니다. `lib/schemas.ts`에서
+파싱 단계에 검증하면, 씬 레이어에는 항상 정상 형태만 들어가도록 합니다.
 
 ### 3. 렌더 비용 관리
 
-건물은 개별 메시가 아니라 압출 후 재질을 `materialPool`에서 공유하고,
-모델은 `scripts/convert-models.js`로 Draco/meshopt 압축을 거쳐 로드한다.
-`PerformanceMonitor`로 프레임 예산을 눈으로 확인하며 튜닝한다.
+건물은 개별 메시가 아니라 압출 후 재질을 `materialPool`에서 공유합니다.
+모델은 `scripts/convert-models.js`로 Draco/meshopt 압축을 거쳐 로드하고,
+`PerformanceMonitor`로 프레임 예산을 눈으로 확인하면서 튜닝하는 식입니다.
 
 ## 참고 문서
 
@@ -91,9 +93,9 @@ Overpass/지오코딩 응답은 스키마가 느슨하고 자주 빈다. `lib/sc
 
 ## 라이선스
 
-**Source-available — 오픈소스가 아닙니다.** 코드를 읽을 수 있게 공개했을 뿐,
+**Source-available — 오픈소스는 아닙니다.** 코드를 읽을 수 있게 공개했을 뿐,
 사용 권한을 준 것은 아닙니다. 다른 프로젝트에 가져다 쓰거나 재배포·상업적 이용을
 하려면 사전 서면 허락이 필요합니다. 전문은 [LICENSE](LICENSE), 한국어 안내는 [LICENSE.ko.md](LICENSE.ko.md) 참조.
 
 지도 데이터는 **OpenStreetMap contributors (ODbL)**, 3D 모델은 각 에셋의 라이선스를
-따른다 (`FREE_3D_ASSETS.md` 참조).
+따르고 있습니다 (`FREE_3D_ASSETS.md` 참조).
