@@ -1,6 +1,6 @@
 # 3D Map Explorer
 
-[한국어](README.md) · **English**
+[한국어](README.md) | **English**
 
 A web app that lets you walk around and explore a cute low-poly 3D world made from real map data, playing as a chibi character.
 

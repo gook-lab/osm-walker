@@ -1,6 +1,6 @@
 # 3D Map Explorer
 
-**한국어** · [English](README.en.md)
+**한국어** | [English](README.en.md)
 
 > **About (EN)** — A browser-based 3D map explorer. It pulls real building
 > footprints, roads and POIs from OpenStreetMap around any searched location and
