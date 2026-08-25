@@ -57,7 +57,7 @@ Path aliases: `@/*` → `./src/*`
 
 ## Design
 
-### 1. Three coordinate systems, one transformation point
+### 1. Shared coordinate system — 3 typed layers, single conversion util
 
 Most bugs in map projects stem from coordinate system confusion. So we separate three coordinate systems **by type** and do conversions in only one place: `utils/coordinates.ts`.
 
@@ -67,7 +67,7 @@ Most bugs in map projects stem from coordinate system confusion. So we separate 
 | LocalXZ | `{ x, z }` | Three.js scene coordinates. origin = search center, **1 unit = 1 m** |
 | Screen | NDC `-1 ~ 1` | for raycasting |
 
-### 2. External data is validated at the gate with Zod
+### 2. External API validation — Zod schema boundary
 
 Overpass/geocoding responses have loose schemas and often arrive incomplete. We validate them in `lib/schemas.ts` at the parsing stage, so the scene layer always sees well-formed data.
 
