@@ -63,7 +63,7 @@ scripts/             convert-models.js, convert-3ds.js (glTF 파이프라인)
 
 ## 핵심 설계
 
-### 1. 좌표계는 셋, 변환 지점은 하나
+### 1. 공통 좌표계 — 타입 3계층 · 변환 유틸 일원화
 
 지도 프로젝트에서 버그의 대부분은 좌표계 혼동에서 납니다. 그래서 세 좌표계를
 **타입으로 분리**하고, 변환은 `utils/coordinates.ts` 한 곳에서만 하도록 했습니다.
@@ -74,7 +74,7 @@ scripts/             convert-models.js, convert-3ds.js (glTF 파이프라인)
 | LocalXZ | `{ x, z }` | Three.js 씬 좌표. 원점 = 검색 중심, **1 unit = 1 m** |
 | Screen | NDC `-1 ~ 1` | 레이캐스팅용 |
 
-### 2. 외부 데이터는 Zod로 막고 들어온다
+### 2. 외부 API 응답 검증 — Zod 스키마 경계
 
 Overpass/지오코딩 응답은 스키마가 느슨하고 자주 빕니다. `lib/schemas.ts`에서
 파싱 단계에 검증하면, 씬 레이어에는 항상 정상 형태만 들어가도록 합니다.
