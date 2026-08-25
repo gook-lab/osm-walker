@@ -582,8 +582,8 @@ describe('wgs84ToLocalXZ', () => {
 
 ### Internal References
 
-- 형제 프로젝트 패턴: `/Users/kyb-ontact/sonix/toy/250223/` (Konva + Zustand)
-- 형제 프로젝트 CLAUDE.md: `/Users/kyb-ontact/sonix/toy/nihongo-app/CLAUDE.md`
+- 형제 프로젝트 패턴: `$HOME/sonix/toy/250223/` (Konva + Zustand)
+- 형제 프로젝트 CLAUDE.md: `$HOME/sonix/toy/nihongo-app/CLAUDE.md`
 
 ### External References
 
