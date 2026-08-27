@@ -51,12 +51,18 @@ export function Buildings() {
     let currentCount = 0;
     setLoadedCount(0);
 
+    // 재귀 setTimeout 은 반드시 정리한다. 안 하면 언마운트·의존성 변경 뒤에도
+    // 체인이 계속 돌면서 사라진 컴포넌트에 setState 를 부른다.
+    let timerId: ReturnType<typeof setTimeout> | null = null;
+    let cancelled = false;
+
     const loadNextChunk = () => {
+      if (cancelled) return;
       currentCount = Math.min(currentCount + CHUNK_SIZE, sortedBuildings.length);
       setLoadedCount(currentCount);
 
       if (currentCount < sortedBuildings.length) {
-        setTimeout(loadNextChunk, LOAD_INTERVAL);
+        timerId = setTimeout(loadNextChunk, LOAD_INTERVAL);
       }
     };
 
@@ -64,6 +70,8 @@ export function Buildings() {
     loadNextChunk();
 
     return () => {
+      cancelled = true;
+      if (timerId) clearTimeout(timerId);
       setLoadedCount(0);
     };
   }, [allBuildings, camera.position]);
