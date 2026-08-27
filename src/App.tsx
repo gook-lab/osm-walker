@@ -1,4 +1,11 @@
-import { GameCanvas } from './components/3d/GameCanvas';
+import { Suspense, lazy } from 'react';
+
+// 3D 스택(three + fiber + drei + rapier)은 번들의 대부분을 차지한다. 최상단에서
+// import 하면 UI 셸조차 그것을 다 받은 뒤에야 그려진다 — 지연 로딩해서 검색바와
+// 로딩 오버레이가 먼저 뜨게 한다.
+const GameCanvas = lazy(() =>
+  import('./components/3d/GameCanvas').then((m) => ({ default: m.GameCanvas }))
+);
 import { SearchBar } from './components/ui/SearchBar';
 import { POIInfoPanel } from './components/ui/POIInfoPanel';
 import { LoadingOverlay } from './components/ui/LoadingOverlay';
@@ -16,8 +23,10 @@ function App() {
 
   return (
     <div className="relative h-screen w-screen overflow-hidden">
-      {/* 3D Canvas */}
-      <GameCanvas />
+      {/* 3D Canvas — 번들이 커서 지연 로딩한다 */}
+      <Suspense fallback={null}>
+        <GameCanvas />
+      </Suspense>
 
       {/* 로딩 오버레이 */}
       <LoadingOverlay />
